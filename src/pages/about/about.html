@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- <ion-card>
+    <ion-card-header>
+      Explore Nearby
+    </ion-card-header>
+    <ion-list>
+      <button ion-item *ngFor="let item of lista">
+        <ion-icon name="cart" item-start [ngStyle]="{'color': item.color}"></ion-icon>
+        {{ item.titulo }}
+      </button>
+    </ion-list>
+  </ion-card> -->
+  
+  <h4 text-center>Datos desde servidor externo</h4>
+  <ion-list>
+    <button ion-item *ngFor="let usuario of usuarios">
+      {{ usuario.id }}. {{ usuario.name | uppercase }}
+    </button>
+  </ion-list>
+
+</ion-content>

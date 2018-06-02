@@ -1,0 +1,19 @@
+page-mytest {
+    .buttonfav {
+        z-index: 2;
+        position: absolute;
+        margin-left: 40%;
+        //top: 2%; //Quita el boton a los demas item
+        margin: auto;
+    }
+    .circle-pic {
+        width:105px;
+        height:105px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        margin: auto;
+        margin-top: 35%;
+        left: 50%;
+    }
+}
